@@ -6,7 +6,7 @@ MOM5 JRA-RYF
 "ocean",            12,  "months", 1, "days", "time",
 "ocean_grid",      -1,  "months", 1, "days", "time",
 "ocean_scalar",     1,  "months", 1, "days", "time",
-
+"ocean_debug",                0,  "months", 1, "days", "time",1,"months","0001 01 01 0 0 0",1,"hours"
 
 # Save ocean grid data once and for all
 "ocean_model","geolon_t","geolon_t", "ocean_grid","all",.false.,"none",2
@@ -107,3 +107,41 @@ MOM5 JRA-RYF
 "ocean_model","total_ocean_calving_melt_heat","total_ocean_calving_melt_heat","ocean_scalar","all",.true.,"none",2
 "ocean_model","total_ocean_sens_heat","total_ocean_sens_heat"                ,"ocean_scalar","all",.true.,"none",2
 
+# geographical longitude and latitude of corner and tracer points (ocean_debug)
+ "ocean_model","geolat_c","geolat_c"  ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","geolon_c","geolon_c"  ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","geolat_t","geolat_t"  ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","geolon_t","geolon_t"  ,"HISTORY/ocean_debug","all",.false.,"none",2
+#
+ "ocean_model","sea_level","sea_level" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","surface_temp","sst"  ,"HISTORY/ocean_daily","all",.false.,"none",2
+
+ "ocean_model","lprec","lprec" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","fprec","fprec" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","evap","evap" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","runoff","runoff" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","melt","melt" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","pme_river","pme_river" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","licefw","licefw" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","liceht","liceht" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","lw_heat","lw_heat" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","evap_heat","evap_heat" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","sens_heat","sens_heat" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","swflx","swflx" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","tau_x","tau_x" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","tau_y","tau_y" ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","frazil_2d","frazil_2d"                                      ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","pme_sbc","pme_mass"                                         ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","river","river"                                              ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","sfc_hflux_coupler","sfc_hflux_coupler"                      ,"HISTORY/ocean_debug","all",.false.,"none",2
+
+ "ocean_model","hblt","hblt",                        "HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","langmuirfactor","langmuirfactor",            "HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","langenh","lang_enh",            "HISTORY/ocean_debug","all",.false.,"none",2
+#==========================================================================
+# conservative temperature 3d tracer 
+ "ocean_model","con_temp","con_temp"         ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","salt","salt" ,"HISTORY/ocean_debug","all",.false.,"none",2
+#==========================================================================
+ "ocean_model","diff_cbt_kpp_t","diff_cbt_kpp_t"     ,"HISTORY/ocean_debug","all",.false.,"none",2
+ "ocean_model","diff_cbt_kpp_s","diff_cbt_kpp_s"     ,"HISTORY/ocean_debug","all",.false.,"none",2
