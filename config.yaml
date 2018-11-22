@@ -46,5 +46,5 @@ collate:
     mpi: true
 
 mpirun: --mca orte_base_help_aggregate 0
-qsub_flags: -lother=hyperthread -W umask=027
+qsub_flags: -W umask=027 -m abe
 # postscript: sync_output_to_gdata.sh

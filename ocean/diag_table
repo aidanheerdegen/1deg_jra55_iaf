@@ -114,7 +114,6 @@ MOM5 JRA-RYF
  "ocean_model","geolon_t","geolon_t"  ,"ocean_debug","all",.false.,"none",2
 #
  "ocean_model","sea_level","sea_level" ,"ocean_debug","all",.false.,"none",2
- "ocean_model","surface_temp","sst"  ,"ocean_daily","all",.false.,"none",2
 
  "ocean_model","lprec","lprec" ,"ocean_debug","all",.false.,"none",2
  "ocean_model","fprec","fprec" ,"ocean_debug","all",.false.,"none",2
