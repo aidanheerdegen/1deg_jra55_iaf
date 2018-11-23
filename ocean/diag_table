@@ -6,7 +6,7 @@ MOM5 JRA-RYF
 "ocean",            12,  "months", 1, "days", "time",
 "ocean_grid",      -1,  "months", 1, "days", "time",
 "ocean_scalar",     1,  "months", 1, "days", "time",
-"ocean_debug_%3yr_%3dy_%2hr_%2mi",  0,  "months", 1, "days", "time",1,"months","0001 01 01 0 0 0",1,"hours"
+"ocean_debug_%4yr_%3dy_%2hr_%2mi",  0,  "seconds", 1, "seconds", "time",1,"months","0001 01 01 0 0 0",1,"days"
 
 # Save ocean grid data once and for all
 "ocean_model","geolon_t","geolon_t", "ocean_grid","all",.false.,"none",2

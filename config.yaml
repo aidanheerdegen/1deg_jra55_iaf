@@ -43,7 +43,7 @@ collate:
     collate: express
     ncpus: 2
     # flags: -n4 -z -m -r
-    mpi: true
+    # mpi: true
 
 mpirun: --mca orte_base_help_aggregate 0
 qsub_flags: -W umask=027 -m a
