@@ -107,40 +107,40 @@ MOM5 JRA-RYF
 "ocean_model","total_ocean_calving_melt_heat","total_ocean_calving_melt_heat","ocean_scalar","all",.true.,"none",2
 "ocean_model","total_ocean_sens_heat","total_ocean_sens_heat"                ,"ocean_scalar","all",.true.,"none",2
 
-# geographical longitude and latitude of corner and tracer points (ocean_debug_%3yr_%3dy_%2hr_%2mi)
- "ocean_model","geolat_c","geolat_c"  ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","geolon_c","geolon_c"  ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","geolat_t","geolat_t"  ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","geolon_t","geolon_t"  ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+# geographical longitude and latitude of corner and tracer points (ocean_debug_%4yr_%3dy_%2hr_%2mi)
+ "ocean_model","geolat_c","geolat_c"  ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","geolon_c","geolon_c"  ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","geolat_t","geolat_t"  ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","geolon_t","geolon_t"  ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
 #
- "ocean_model","sea_level","sea_level" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","sea_level","sea_level" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
 
- "ocean_model","lprec","lprec" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","fprec","fprec" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","evap","evap" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","runoff","runoff" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","melt","melt" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","pme_river","pme_river" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","licefw","licefw" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","liceht","liceht" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","lw_heat","lw_heat" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","evap_heat","evap_heat" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","sens_heat","sens_heat" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","swflx","swflx" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","tau_x","tau_x" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","tau_y","tau_y" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","frazil_2d","frazil_2d"                                      ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","pme_sbc","pme_mass"                                         ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","river","river"                                              ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","sfc_hflux_coupler","sfc_hflux_coupler"                      ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","lprec","lprec" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","fprec","fprec" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","evap","evap" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","runoff","runoff" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","melt","melt" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","pme_river","pme_river" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","licefw","licefw" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","liceht","liceht" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","lw_heat","lw_heat" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","evap_heat","evap_heat" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","sens_heat","sens_heat" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","swflx","swflx" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","tau_x","tau_x" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","tau_y","tau_y" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","frazil_2d","frazil_2d"                                      ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","pme_sbc","pme_mass"                                         ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","river","river"                                              ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","sfc_hflux_coupler","sfc_hflux_coupler"                      ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
 
- "ocean_model","hblt","hblt",                        "ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","langmuirfactor","langmuirfactor",            "ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","langenh","lang_enh",            "ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","hblt","hblt",                        "ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","langmuirfactor","langmuirfactor",            "ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","langenh","lang_enh",            "ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
 #==========================================================================
 # conservative temperature 3d tracer 
- "ocean_model","con_temp","con_temp"         ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","salt","salt" ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","con_temp","con_temp"         ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","salt","salt" ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
 #==========================================================================
- "ocean_model","diff_cbt_kpp_t","diff_cbt_kpp_t"     ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
- "ocean_model","diff_cbt_kpp_s","diff_cbt_kpp_s"     ,"ocean_debug_%3yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","diff_cbt_kpp_t","diff_cbt_kpp_t"     ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+ "ocean_model","diff_cbt_kpp_s","diff_cbt_kpp_s"     ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
