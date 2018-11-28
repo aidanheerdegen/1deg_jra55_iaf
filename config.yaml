@@ -40,7 +40,7 @@ runlog: False
 stacksize: unlimited
 collate:
     walltime: 1:00:00
-    collate: express
+    queue: express
     ncpus: 2
     # flags: -n4 -z -m -r
     # mpi: true

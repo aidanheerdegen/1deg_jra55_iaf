@@ -144,3 +144,5 @@ MOM5 JRA-RYF
 #==========================================================================
  "ocean_model","diff_cbt_kpp_t","diff_cbt_kpp_t"     ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
  "ocean_model","diff_cbt_kpp_s","diff_cbt_kpp_s"     ,"ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
+
+ "ocean_model","bogusvar","bogusvar",            "ocean_debug_%4yr_%3dy_%2hr_%2mi","all",.false.,"none",2
