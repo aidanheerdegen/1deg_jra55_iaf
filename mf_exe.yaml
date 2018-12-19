@@ -1,0 +1,15 @@
+format: yamanifest
+version: 1.0
+---
+work/atmosphere/yatm_e8ad3723.exe:
+  fullpath: /short/public/access-om2/bin/yatm_e8ad3723.exe
+  hashes:
+    md5: e35fd0181efc2b766f5dad0033260e09
+work/ice/cice_auscom_360x300_24p_076b14f2.exe:
+  fullpath: /short/public/access-om2/bin/cice_auscom_360x300_24p_076b14f2.exe
+  hashes:
+    md5: 19dd27f21283ccf4ee9a1522dafb01fa
+work/ocean/fms_ACCESS-OM_afe80bfd.x:
+  fullpath: /short/public/access-om2/bin/fms_ACCESS-OM_afe80bfd.x
+  hashes:
+    md5: 373843a51b17217f0a39faf08fe468ad

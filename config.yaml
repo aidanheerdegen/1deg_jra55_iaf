@@ -6,6 +6,8 @@ jobname: 1deg_jra55_iaf
 ncpus: 252
 mem: 500GB
 
+runspersub: 3
+
 shortpath: /short/v45
 
 # Model configuration
@@ -36,9 +38,10 @@ platform:
     nodesize: 28
 
 # Misc
-runlog: False
+runlog: True
 stacksize: unlimited
 collate:
+    enable: True
     walltime: 1:00:00
     queue: express
     ncpus: 2
@@ -47,4 +50,4 @@ collate:
 
 mpirun: --mca orte_base_help_aggregate 0
 qsub_flags: -W umask=027 -m a
-# postscript: sync_output_to_gdata.sh
+# postscript: ls.sh
