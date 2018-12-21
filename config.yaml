@@ -6,7 +6,7 @@ jobname: 1deg_jra55_iaf
 ncpus: 252
 mem: 500GB
 
-runspersub: 3
+runspersub: 1
 
 shortpath: /short/v45
 

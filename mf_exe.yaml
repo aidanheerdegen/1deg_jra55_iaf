@@ -4,12 +4,15 @@ version: 1.0
 work/atmosphere/yatm_e8ad3723.exe:
   fullpath: /short/public/access-om2/bin/yatm_e8ad3723.exe
   hashes:
+    binhash: 7b25a7583279aa122033de755d2a2ceb
     md5: e35fd0181efc2b766f5dad0033260e09
 work/ice/cice_auscom_360x300_24p_076b14f2.exe:
   fullpath: /short/public/access-om2/bin/cice_auscom_360x300_24p_076b14f2.exe
   hashes:
+    binhash: 34f0de39c4438c8e80e40a947ada6aa5
     md5: 19dd27f21283ccf4ee9a1522dafb01fa
 work/ocean/fms_ACCESS-OM_afe80bfd.x:
   fullpath: /short/public/access-om2/bin/fms_ACCESS-OM_afe80bfd.x
   hashes:
+    binhash: 2c926e3fe9b7469e655d9a424e657cfe
     md5: 373843a51b17217f0a39faf08fe468ad
